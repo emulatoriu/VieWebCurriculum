@@ -8,7 +8,7 @@ Learn objectives:
 * [hECMAthlon](./hECMAthlon)
 * [ExploringHTTP](./ExploringHTTP) 
 * [GrannysPantry](./GrannysPantry) 
-* [FetchNdPromises](./FetchNdPromises) 
+* [StarWars](./StarWars) 
 * [AskNasa](./AskNasa)
 
 ## Team
