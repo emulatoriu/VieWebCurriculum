@@ -12,7 +12,5 @@ Learn objectives:
 * [AskNasa](./AskNasa)
 
 ## Team
-* Workshop: [formatting code](./workshopFormattingCode.md)
-* Workshop: basic work & git conflicts (intro multiuser work)
 * [WeatherAPP](./TW_WeatherApp/)
 * [Workbook](./TW_WORKBOOK)

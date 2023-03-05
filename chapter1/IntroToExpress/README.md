@@ -91,6 +91,8 @@ Now when you will open the site __localhost:3000/users__ or __localhost:3000/pro
 
 ### Hints
 * Check the background material for more information
+* To stop your web server press ctrl-C
+* If you stopped your web server and refreshed the page of it, you will notify that the page can not be reloaded
 
 
 ### Background Materials
