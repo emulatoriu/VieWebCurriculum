@@ -1,6 +1,6 @@
 # Movienator
 
-Didn`t it happen to you that sometimes you think about a cool movie and you only remember one actor who played there and you would like to know which movie it was? Of course we could google it but better to build our own version for this solution.  
+Didn`t it happen to you that sometimes you thought about a cool movie and you only remembered one actor who played there and you would like to know which movie it was? Of course we could google it but since we are developers we are going for our own solution here.
 You have to build a server which can add, delete and search for certain movies.
 
 ## What are you going to learn?
@@ -14,7 +14,7 @@ How to use express, routes and EJS in a bigger project.
 2. Express should be installed with __npm install express__
 3. EJS should be installed with __npm install ejs__
 4. A movies.json file should be created with some movie objects
-5. Install nodemon with __npm install nodemon__ and adapt the __"scripts"__ part by adding a __devStart__ which starts your project
+5. Nodemon shouold be installed with __npm install nodemon__ and the __"scripts"__ part of the __package.json__ file should be adapted by adding a __devStart__ attribute which starts your project with nodemon
 
 ### Create the Express server
 1. An instance of Express should be created in a server.js file
@@ -30,7 +30,7 @@ How to use express, routes and EJS in a bigger project.
 ### Create a route to add a new movie
 1. A GET route should be created for the /movies/new URL that renders an HTML form for adding a new movie
 2. The form should submit a POST request to the /movies URL with the movie data
-3. A POST route should be created for the /movies URL that adds a new movie object to the movies variable and redirects to the /movies URL
+3. A POST route should be created for the /movies URL that adds a new movie object to the movies variable and redirects to the /movies URL (of the GET route)
 
 ### Create a route to display a single movie
 1. A GET route should be created for the /movies/:id URL, where :id is the ID of a specific movie
@@ -58,3 +58,15 @@ How to use express, routes and EJS in a bigger project.
 
 ### Hints
 * For accessing the json file and manipulating the movie objects we provided a file with functions in the [services](./services) directory. You might use it or create your own functions.
+* This is how an object in the movies.json file should look like:  
+
+```json
+{
+  "id": 1,
+  "title": "The Shawshank Redemption",
+  "year": 1994,
+  "director": "Frank Darabont",
+  "genre": "Drama",
+  "actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"]
+}
+```

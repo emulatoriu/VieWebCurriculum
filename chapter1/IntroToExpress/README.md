@@ -33,7 +33,7 @@ npm install express
 ```js
 npm i –save-dev nodemon
 ```
-5. Now there was a package.json file created. Open it and change the __devStart__ line to this:
+5. Now there was a package.json file created. Open it and add something like following to the __scripts__ part:
 
 ```js
 "devStart": "nodemon server.js"

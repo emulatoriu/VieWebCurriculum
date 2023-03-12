@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurant Order Management System</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/menu">Menu</a></li>
+        <li><a href="/order">Order</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!-- Use EJS to display the menu items -->
+      <%- include('menu', { menuItems: menuItems }) %>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Burger",
+      "description": "A classic burger with all the fixings",
+      "price": 10.99,
+      "image": "/images/burger.jpg"
+    },
+    {
+      "name": "Pizza",
+      "description": "A classic pepperoni pizza",
+      "price": 12.99,
+      "image": "/images/pizza.jpg"
+    },
+    {
+      "name": "Salad",
+      "description": "A healthy salad with mixed greens and vegetables",
+      "price": 8.99,
+      "image": "/images/salad.jpg"
+    }
+  ]
+  
